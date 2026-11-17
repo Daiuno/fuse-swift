@@ -7,6 +7,7 @@ let package = Package(
   name: "Fuse",
   platforms: [
     .iOS(.v8),
+    .tvOS("15.0"),
     .macOS(.v10_13)
   ],
   products: [
